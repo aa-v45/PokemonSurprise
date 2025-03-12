@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Surprise</title>
+    <link rel="stylesheet" href="Pokemon.css">  <!-- Updated CSS reference -->
+</head>
+<body>
+
+    <div class="container">
+        <h1>Click this button for a surprise!</h1>
+        <button id="startButton">Click Me!</button>
+
+        <div id="animationContainer">
+            <img id="arcanine" src="images/arcanine.gif" alt="Arcanine Running">
+            <img id="snivy" src="images/snivy.png" alt="Snivy Riding">
+        </div>
+
+        <img id="pokeball" src="images/pokeball.png" alt="Poké Ball">
+    </div>
+
+    <!-- Pokémon Sounds -->
+    <audio id="arcanineCry" src="audio/arcanine_cry.mp3" preload="auto"></audio>
+    <audio id="snivyCry" src="audio/snivy_cry.mp3" preload="auto"></audio>
+    <audio id="backgroundMusic" src="audio/pokemon_theme.mp3" loop preload="auto"></audio>
+
+    <script src="Pokemon.js"></script>  <!-- Updated JavaScript reference -->
+</body>
+</html>
+

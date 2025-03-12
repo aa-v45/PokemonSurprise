@@ -1,0 +1,65 @@
+/* General Page Styling */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ffcc00;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ffaa00;
+}
+
+/* Animation Container */
+#animationContainer {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    margin: 20px auto;
+    display: none; /* Hidden initially */
+}
+
+/* Arcanine */
+#arcanine {
+    position: absolute;
+    bottom: 0;
+    left: -200px; /* Start off-screen */
+    width: 200px;
+}
+
+/* Snivy */
+#snivy {
+    position: absolute;
+    bottom: 60px;
+    left: -200px; /* Start off-screen */
+    width: 50px;
+}
+
+/* Poké Ball */
+#pokeball {
+    width: 80px;
+    margin-top: 20px;
+}
+
+/* Animation */
+@keyframes run {
+    0% { left: -200px; }
+    100% { left: 100%; }
+}
+
+/* Snivy riding animation */
+@keyframes ride {
+    0% { left: -200px; }
+    100% { left: 100%; }
+}
+
+
